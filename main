@@ -1,0 +1,45 @@
+def Test1():
+  Browsers.Item[btChrome].Run("https://www.google.com/search?q=email+mohmal&rlz=1C1CHBD_idID969ID969&oq=email+mohmal&aqs=chrome..69i57j0i22i30l3j69i60l3.3036j0j7&sourceid=chrome&ie=UTF-8")
+  browser = Aliases.browser
+  browserWindow = browser.BrowserWindow
+  browserWindow.Maximize()
+  page = browser.pageEmailMohmalPenelusuranGoogle
+  page.textnodeTempMailMohmalTemporary.Click()
+  page2 = browser.pageEn
+  page2.Wait()
+  page2.linkRand.Click()
+  page2 = browser.pageInbox
+  page2.Wait()
+  page2.panel1ce6f3c424EmailnaxCom.Click()
+  browserWindow.Click(279, 24)
+  browser.ToUrl("https://www.google.com/search?q=pinterest+com&rlz=1C1CHBD_idID969ID969&oq=pinterest+com&aqs=chrome..69i57j0i131i433i512j0i512l5j0i131i433i512j0i512l2.5006j0j7&sourceid=chrome&ie=UTF-8")
+  page.textnodePinterest.Click()
+  page = browser.pageIdPinterestCom
+  page.Wait()
+  page.buttonDaftar.ClickButton()
+  emailInput = page.emailinputEmail
+  emailInput.Click()
+  emailInput.Keys("^v")
+  passwordBox = page.passwordboxPassword
+  passwordBox.Click()
+  passwordBox.SetText("Password")
+  textbox = page.textboxAge
+  textbox.Click()
+  textbox.SetText("21")
+  page.buttonLanjutkan.ClickButton()
+  page.Wait()
+  page.buttonBerikutnya.ClickButton()
+  page.labelWanita.panelWanita.Click()
+  vselect = page.selectNewusercountry
+  vselect.Click(224, 39)
+  browser.wndChrome_WidgetWin_1.Chrome_RenderWidgetHostHWND.Drag(487, 582, -113, -581)
+  vselect.ClickItem("Amerika Serikat")
+  page.buttonBerikutnya2.ClickButton()
+  page.panel.Click()
+  page.panel2.Click()
+  page.panel3.Click()
+  page.panel4.Click()
+  page.panel5.Click()
+  page.buttonSelesai.ClickButton()
+  page.buttonSelesai2.ClickButton()
+  page.linkCefc.textnodeC.Click()
